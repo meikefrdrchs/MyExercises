@@ -1,4 +1,4 @@
-def numberconversion():
+def checknumber():
 
     number = input("Type a number!\n")
 
@@ -6,6 +6,6 @@ def numberconversion():
         newnumber = int(number)
         print("Cool, your number is",newnumber)
     else:
-        print("Sorry, that sucks.")
+        print("Sorry, that's not a number.")
 
-numberconversion()
+checknumber()
